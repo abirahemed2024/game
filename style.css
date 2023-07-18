@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    color: #534C64;
+    font-weight: 400;
+}
+h1,h2,h3,h4{
+    color: #0B0223;
+    font-weight: 700;
+}
+/* Nav section start */
+nav{
+    width: 80%;
+    margin:30px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-logo{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.nav-logo img{
+    width: 85px;
+    height: 40px;
+}
+.nav-logo h2{
+    font-size: 45px;
+}
+.nav-logo h2 span{
+    color: #ff42A5;
+}
+
+menu ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    align-items: center;
+}
+menu ul li a{
+    text-decoration: none;
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 500;
+}
+menu ul .media{
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 15px 30px;
+}
+menu ul .media .fa-youtube{
+    color: #F61C0D;
+    margin:0 8px;
+}
