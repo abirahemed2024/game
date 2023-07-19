@@ -166,6 +166,98 @@ menu ul .media .fa-youtube{
     grid-template-columns: repeat(4,1fr);
     gap: 2%;
 }
+.online-img-1 .img-1{
+    background: url("img/Rectangle\ 4.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    padding: 50% 0;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 15px;
+}
+.online-img-1 .img-1:hover{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("img/Rectangle\ 4.png");
+    border-radius: 15px;
+    
+}
+.online-img-2 .img-2{
+    background: url("img/Rectangle\ 5.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    padding: 50% 0;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 15px;
+}
+.online-img-2 .img-2:hover{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("img/Rectangle\ 5.png");
+    border-radius: 15px;
+    
+}
+.online-img-3 .img-3{
+    background: url("img/Rectangle\ 7.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    padding: 50% 0;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 15px;
+}
+.online-img-3 .img-3:hover{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("img/Rectangle\ 7.png");
+    border-radius: 15px;
+    
+}
+.online-img-4 .img-4{
+    background: url("img/Rectangle\ 6.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    padding: 50% 0;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 15px;
+}
+.online-img-4 .img-4:hover{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("img/Rectangle\ 6.png");
+    border-radius: 15px;
+    
+}
+.watch{
+    text-align: center;
+    opacity: 0;
+}
+.img-1:hover .watch{
+    opacity: 1;
+}
+.img-2:hover .watch{
+    opacity: 1;
+}
+.img-3:hover .watch{
+    opacity: 1;
+}
+.img-4:hover .watch{
+    opacity: 1;
+}
+.watch p{
+    color:#F948B2;
+}
+.fa-regular{
+    background-color: #fff;
+    font-size: 30px;
+    border-radius: 50%;
+}
 .online-img-1 img,.online-img-2 img,.online-img-3 img,.online-img-4 img{
     margin-bottom: 20px;
     width: 100%;
@@ -400,8 +492,15 @@ footer{
     }
     /* online game section */
     .online-img{
+        width: 80%;
+        margin: 0 auto;
         display: grid;
         grid-template-columns: 1fr;
+    }
+    .online-img-1 .img-1{
+        padding: 50% 0;
+        margin: 0 auto;
+    
     }
     .online-img-4{
         margin-bottom: 60px;
@@ -451,5 +550,85 @@ footer{
     .play-game-info{
         width: 100%;
         margin: 10% 0px;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 900px) {
+    /* nav section */
+    nav{
+        display: block;
+        width: 58%;
+        margin: 0 auto;
+    }
+    .nav-logo{
+        margin-bottom: 20px;
+    }
+    .online-img{
+        width: 80%;
+        margin: 0 auto;
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 1fr 1fr;
+    }
+    .bannar{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .bannar-info{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        padding: 10%;
+        width: 80%;
+
+    }
+    .bannar-img{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .play-game{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .play-game-img img{
+        width: 100%;
+    }
+    .big-img img{
+        width: 50%;
+        right: 0;
+    }
+    .play-game-info{
+        width: 100%;
+        margin: 10% 0px;
+    }
+    .game-store{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 20px;
+    }
+    .store img{
+        width: 40px;
+        height: 40px;
+    }
+    .store{
+        padding: 5px 10px;
+    }
+    .footer-menu ul{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 20px;
+        width: 75%;
+        margin: 40px auto;
+    }
+    .footer-more-dis ul{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 75%;
+        gap: 20px;
+        width: 75%;
+        margin: 40px auto;
     }
 }
